@@ -8,46 +8,22 @@ let countHome = 0;
 let countGuest = 0;
 
 
-// functions that count the guest scores
-
-function addingHome1() {
-  countHome += 1;
-  countOne.textContent = countHome;
+// function that count the home scores
+function handleHomeScores(scoreToAdd) {
+ const currentScore = Number(countOne.textContent)
+  countOne.textContent = currentScore + scoreToAdd
 }
 
-function addingHome2() {
-  countHome += 2;
-  countOne.textContent = countHome;
+// function that count the guest scores
+function handleGuestScores(scoreToAdd) {
+ const currentScore = Number(countTwo.textContent)
+  countTwo.textContent = currentScore + scoreToAdd
 }
 
-function addingHome3() {
-  countHome += 3;
-  countOne.textContent = countHome;
-}
-
-// functions that count the guest scores
-
-function addingGuest1() {
-  countGuest += 1;
-  countTwo.textContent = countGuest;
-}
-
-
-function addingGuest2() {
-  countGuest += 2;
-  countTwo.textContent = countGuest;
-}
-
-
-function addingGuest3() {
-  countGuest += 3;
-  countTwo.textContent = countGuest;
-}
-
-// function that set the score back to zero
+// function that sets the score back to zero
 function startOver() {
-  countOne.textContent -= countHome;
-  countTwo.textContent -= countGuest;
+  countOne.textContent = countHome;
+  countTwo.textContent = countGuest;
   countHome = 0;
   countGuest = 0;
 }
