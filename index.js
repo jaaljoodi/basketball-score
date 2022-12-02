@@ -1,7 +1,7 @@
-let statOver = document.getElementById("start-over");
+const statOver = document.getElementById("start-over");
 
-let countOne = document.getElementById("count-el1");
-let countTwo = document.getElementById("count-el2");
+const countOne = document.getElementById("count-el1");
+const countTwo = document.getElementById("count-el2");
 
 // declaring variables
 let countHome = 0;
