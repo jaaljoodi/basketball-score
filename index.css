@@ -7,10 +7,11 @@ body {
   background-size: cover;
   color: #FFF;
   font-size: 40px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 .container {
-  background-color: #14213d;
+  background-color: #723d46;
   display: flex;
   justify-content: space-around;
   width: 90%;
@@ -49,7 +50,7 @@ body {
 button {
   border: 0.1rem solid #9AABD8;
   color: #9AABD8;
-  background-color: #14213d;
+  background-color: #723d46;
   margin: 10px;
   padding: 6px;
   cursor: pointer;
@@ -75,6 +76,6 @@ button:hover {
 }
 
 #start-over:hover {
-  background-color: #4cc9f0;
+  background-color: #F94F6D;
   transition: 0.3s;
 }
