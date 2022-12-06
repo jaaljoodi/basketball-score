@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: #F94F6D;
+  background-color: #6a53f1;
   color: #fff;
   border: 0.1rem solid #fff;
   transition: 0.3s;
@@ -76,6 +76,6 @@ button:hover {
 }
 
 #start-over:hover {
-  background-color: #F94F6D;
+  background-color: #6a53f1;
   transition: 0.3s;
 }
